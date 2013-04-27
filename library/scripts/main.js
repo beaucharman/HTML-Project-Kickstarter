@@ -1,12 +1,19 @@
+/**
+ * Main
+ * ------------------------------------------------------------------------
+ * main.js
+ * @version 2.1 | April 27th 2013
+ * @package HTML Project Kickstarter
+ * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @link    http://git.io/2MM3bw
+ * @license MIT License
+ * ------------------------------------------------------------------------ */
+
+// jQuery No Conflict
+// To prevent thrid party plugins from conflicting with
+// your jQuery, simple use the following anonymous function:
 /*
-
-	Main Scripts
-
-------------------------------------------------
-  Description:
-	Version:     1.0
------------------------------------------------- */
-
-/* Remove the .js class from the html tag is javascript is enabled
-------------------------------------- */
-document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+(function($) {
+  // ...
+}(jQuery));
+*/

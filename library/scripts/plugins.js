@@ -1,16 +1,21 @@
-/*
+/**
+ * Plugins
+ * ------------------------------------------------------------------------
+ * plugins.js
+ * @version 2.1 | April 27th 2013
+ * @package HTML Project Kickstarter
+ * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @link    http://git.io/2MM3bw
+ * @license MIT License
+ * ------------------------------------------------------------------------ */
 
-  Plugin Scripts
+/* Remove the .js class from the html tag is javascript is enabled */
+var documentClassName = document.documentElement.className;
+documentClassName = documentClassName.replace(/\bno-js\b/g, '') + ' js ';
 
-------------------------------------------------
-  Description:
-  Version:     1.0
------------------------------------------------- */
-
-/* Avoid `console` errors in browsers that lack a console. [from boilerplate]
-------------------------------------- */
-(function()
-{
+/* Avoid `console` errors in browsers that lack a console. [from boilerplate] */
+(function() {
+  'use strict';
   var method;
   var noop = function () {};
   var methods = [
@@ -21,11 +26,9 @@
   ];
   var length = methods.length;
   var console = (window.console = window.console || {});
-  while (length--)
-  {
+  while (length--) {
     method = methods[length];
-    if (!console[method])
-    {
+    if (!console[method]) {
       console[method] = noop;
     }
   }
