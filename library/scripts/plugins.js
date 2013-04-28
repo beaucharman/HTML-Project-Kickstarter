@@ -5,8 +5,10 @@
  * @version 2.1 | April 27th 2013
  * @package HTML Project Kickstarter
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
- * @link    http://git.io/2MM3bw
+ * @link    https://github.com/beaucharman/HTML-Project-Kickstarter
  * @license MIT License
+ *
+ * Thank you http://html5boilerplate.com/
  * ------------------------------------------------------------------------ */
 
 /* Remove the .js class from the html tag is javascript is enabled */
