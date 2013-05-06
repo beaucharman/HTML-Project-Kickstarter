@@ -11,7 +11,10 @@
  * Thank you http://html5boilerplate.com/
  * ------------------------------------------------------------------------ */
 
-/* Remove the .js class from the html tag is javascript is enabled */
+/** 
+ * Remove the .no-js class from the html tag 
+ * to flag that is javascript is enabled 
+ */
 var documentClassName = document.documentElement.className;
 documentClassName = documentClassName.replace(/\bno-js\b/g, '') + ' js ';
 
