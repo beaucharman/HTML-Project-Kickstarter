@@ -1,6 +1,6 @@
 /**
  * Plugins
- * ------------------------------------------------------------------------
+ * ========================================================================
  * plugins.js
  * @version 2.1 | April 27th 2013
  * @package HTML Project Kickstarter
@@ -9,11 +9,11 @@
  * @license MIT License
  *
  * Thank you http://html5boilerplate.com/
- * ------------------------------------------------------------------------ */
+ * ======================================================================== */
 
-/** 
- * Remove the .no-js class from the html tag 
- * to flag that is javascript is enabled 
+/**
+ * Remove the .no-js class from the html tag
+ * to flag that is javascript is enabled
  */
 var documentClassName = document.documentElement.className;
 documentClassName = documentClassName.replace(/\bno-js\b/g, '') + ' js ';
