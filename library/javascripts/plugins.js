@@ -9,7 +9,7 @@
  * @license   MIT License
  *
  * Thank you http://html5boilerplate.com/
- * ======================================================================== */
+ */
 
 /**
  * Remove the .no-js class from the html tag
